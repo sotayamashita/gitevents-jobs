@@ -12,7 +12,7 @@
   "disallowSpacesInsideObjectBrackets": null,
   "disallowImplicitTypeConversion": ["string"],
 
-  "safeContextKeyword": "ctx",
+  "safeContextKeyword": "_this",
 
   "excludeFiles": [
         "tests/data/**"

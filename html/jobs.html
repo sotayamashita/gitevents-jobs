@@ -1,0 +1,180 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="box">
+      <div class="login-page">
+        <div id="login-box" class="login-box auth0-box before">
+          <h3>Login with GitHub to post a job</h3>
+          <a id="btn-login" class="btn btn-primary btn-lg btn-block">Log in</a>
+        </div>
+        <!-- <div id="logged-in-box" class="logged-in-box auth0-box logged-in" style="display: none;">
+
+        </div> -->
+        <h3>Looking for talent?</h3>
+        <form id="jobsForm" class="form-horizontal">
+          <div class="form-group">
+            <label for="title" class="control-label">Job Title</label>
+            <div class="col-sm-10">
+              <input type="text" name="title" class="form-control" id="title" placeholder="JavaScript Ninja">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="twitter" class="control-label">Company Twitter handle</label>
+            <div class="col-sm-10">
+              <input type="text" name="twitter" class="form-control" id="twitter" placeholder="@YourCompany">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="url" class="control-label">Company URL</label>
+            <div class="col-sm-10">
+              <input type="text" name="url" class="form-control" id="url" placeholder="https://barcelonajs.org">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="description" class="control-label">Description</label>
+            <textarea id="description" rows="10" name="description" placeholder="What makes this job so special?"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="skillsAndRequirements" class="control-label">Skills & Requirements</label>
+            <textarea id="skillsAndRequirements" rows="10" name="skillsAndRequirements" placeholder="What makes this job so special?"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="about" class="control-label">About the Company (optional)</label>
+            <textarea id="about" rows="10" name="about" placeholder="What makes your company so special?"></textarea>
+          </div>
+          <div class="-row _residence">
+            <div class="-col12">
+              <label class="_medium">Remote &amp; Relocation</label>
+            </div>
+            <p>We're not a regular job board and only promote local job offers from and in Barcelona or remote jobs. If you want to hire for London, Berlin or anywhere else, go to <a href="http://jobfluent.com">JobFluent</a>.</p>
+            <div class="-col6 checkbox">
+              <input id="AllowsRemote" name="AllowsRemote" type="checkbox" value="true">
+              <input name="AllowsRemote" type="hidden" value="false">
+              <label class="icon _remote" for="AllowsRemote" title="Check this only if you are considering candidates who will work entirely remotely">
+                <strong>Work Remotely</strong>Working remotely full-time is an option.</label>
+            </div>
+            <div class="-col6 residence checkbox">
+              <input id="OffersRelocation" name="OffersRelocation" type="checkbox" value="true">
+              <input name="OffersRelocation" type="hidden" value="false">
+              <label class="icon _relocate" for="OffersRelocation">
+                <strong>Offer Relocation to Barcelona</strong>Relocation assistance to Barcelona is offered.</label>
+            </div>
+          </div>
+          <div id="joeltest" class="inputGroup">
+            <label class="_medium">Joel Test</label>
+            <p class="text _help">The <a href="http://www.joelonsoftware.com/articles/fog0000000043.html">Joel Test</a> is a twelve-question measure of the quality of a software team.</p>
+            <div class="checkbox">
+              <input id="SuppressJoelTest" name="SuppressJoelTest" style="display:none" type="checkbox" value="true">
+              <input name="SuppressJoelTest" type="hidden" value="false">
+              <input checked="checked" id="ShowJoelTest" name="ShowJoelTest" type="checkbox" value="true">
+              <input name="ShowJoelTest" type="hidden" value="false">
+              <label for="ShowJoelTest" id="showLabel">Show the Joel Test for this job ad</label>
+            </div>
+            <div style="margin-left: 1.4em;" class="-joelInputs">
+              <div class="checkbox">
+                <input id="JoelTest1" name="JoelTests" type="checkbox" value="1">
+                <label for="JoelTest1">Do you use source control?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest2" name="JoelTests" type="checkbox" value="2">
+                <label for="JoelTest2">Can you make a build in one step?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest3" name="JoelTests" type="checkbox" value="3">
+                <label for="JoelTest3">Do you make daily builds?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest4" name="JoelTests" type="checkbox" value="4">
+                <label for="JoelTest4">Do you have a bug database?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest5" name="JoelTests" type="checkbox" value="5">
+                <label for="JoelTest5">Do you fix bugs before writing new code?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest6" name="JoelTests" type="checkbox" value="6">
+                <label for="JoelTest6">Do you have an up-to-date schedule?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest7" name="JoelTests" type="checkbox" value="7">
+                <label for="JoelTest7">Do you have a spec?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest8" name="JoelTests" type="checkbox" value="8">
+                <label for="JoelTest8">Do programmers have quiet working conditions?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest9" name="JoelTests" type="checkbox" value="9">
+                <label for="JoelTest9">Do you use the best tools money can buy?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest10" name="JoelTests" type="checkbox" value="10">
+                <label for="JoelTest10">Do you have testers?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest11" name="JoelTests" type="checkbox" value="11">
+                <label for="JoelTest11">Do new candidates write code during their interview?</label>
+              </div>
+              <div class="checkbox">
+                <input id="JoelTest12" name="JoelTests" type="checkbox" value="12">
+                <label for="JoelTest12">Do you do hallway usability testing?</label>
+              </div>
+            </div>
+            <input name="JoelTests" type="hidden">
+          </div>
+          <div class="form-group">
+            <div class="col-xs-4">
+              <ul class="jobs-category-free">
+                <li>Job listing on barcelonajs.org</li>
+                <li>Job listing in the GitHub Repository</li>
+                <li>1-Minute pitch slot at BarcelonaJS meetups</li>
+              </ul>
+              <button type="button" id="jobs-submit-free" class="btn btn-default">Post Free Job</button>
+            </div>
+            <div class="col-xs-4">
+              <ul class="jobs-category-free">
+                <li>Job listing on barcelonajs.org</li>
+                <li>Job listing in the GitHub Repository</li>
+                <li>1-Minute pitch slot at BarcelonaJS meetups</li>
+              </ul>
+              <ul class="jobs-category-premium">
+                <li>Starred job listing
+                  <p>stays at the top of the list for 2 weeks</p>
+                </li>
+                <li>2 mentions on Twitter <a href="https://twitter.com/BcnJS">@BcnJS</a></li>
+                <li>Job listing in our monthly newsletter</li>
+              </ul>
+              <button type="button" id="jobs-submit-premium" class="btn btn-default">Post Premium Job</button>
+            </div>
+            <div class="col-xs-4">
+              <ul class="jobs-category-free">
+                <li>Job listing on barcelonajs.org</li>
+                <li>Job listing in the GitHub Repository</li>
+                <li>1-Minute pitch slot at BarcelonaJS meetups</li>
+              </ul>
+              <ul class="jobs-category-premium">
+                <li>Starred job listing
+                  <p>stays at the top of the list for 2 weeks</p>
+                </li>
+                <li>4 mentions on Twitter <a href="https://twitter.com/BcnJS">@BcnJS</a></li>
+                <li>Job listing in our monthly newsletter</li>
+              </ul>
+              <ul class="jobs-category-platinum">
+                <li>Job listing with company logo</li>
+                <li>4 extra mentions (= 8 total) on Twitter <a href="https://twitter.com/BcnJS">@BcnJS</a></li>
+                <li>2 extra weeks as a top listing (= 4 weeks total)</li>
+                <li>1 extra minute for the company pitch at BarcelonaJS meetups</li>
+              </ul>
+              <button type="button" id="jobs-submit-platinum" class="btn btn-default">Post Platinum Job</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
