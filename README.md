@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/gitevents.svg)](https://www.npmjs.com/package/gitevents)[![build status](https://travis-ci.org/gitevents/core.svg)](https://travis-ci.org/gitevents/core)[![code climate](https://codeclimate.com/github/gitevents/gitevents-jobs/badges/gpa.svg)](https://codeclimate.com/github/gitevents/gitevents-jobs)[![issue count](https://codeclimate.com/github/gitevents/gitevents-jobs/badges/issue_count.svg)](https://codeclimate.com/github/gitevents/gitevents-jobs)
+
 # Jobs on gitevents
 
 [Post A Job]-Button on event website
