@@ -1,0 +1,17 @@
+{
+  "title": "JavaScript Ninja",
+  "companyName": "Teenage Mutant Ninja Turtles",
+  "companyTwitter": "TMNT",
+  "email": "ninja@tmnt.com",
+  "url": "teenagemutantninjaturtles.com",
+  "description": "<p>If you’re a smart, talented individual looking for a fun, fast-paced, and stimulating work environment, where your contributions can (and will) make a difference, then TMNT is the place for you.</p>",
+  "skillsAndRequirements": "<p><ul><li>You have a hacker's spirit and an engineer's discipline.</li><li>You're comfortable banging out code on the fly as you rapid-prototype that latest cool idea you have.</li><li>You treat JavaScript like a real language.</li><li>You know how to leverage most of what the browser offers, including the latest implementations of HTML5 and CSS 3, to create fast, scalable, complex web applications.</li></ul></p>",
+  "about": "<p>The Teenage Mutant Ninja Turtles (often shortened to TMNT or Ninja Turtles) are four teenage anthropomorphic turtles, named after four Renaissance Italian artists, who were trained by their anthropomorphic rat sensei in the art of JavaScript-jutsu. From their home in sewers of New York City, they battle petty Java, Ruby and PHP developers while attempting to remain hidden from society.</p>",
+  "allowsRemote": "true",
+  "offersRelocation": "true",
+  "SuppressJoelTest": "false",
+  "ShowJoelTest": ["true", "false"],
+  "JoelTests": "",
+  "billingVat": [],
+  "tier": "jobs-submit-free"
+}

@@ -1,0 +1,43 @@
+{
+  "content": {
+    "name": "20151227-teenage-mutant-ninja-turtles-javascript-ninja",
+    "path": "jobs/20151227-teenage-mutant-ninja-turtles-javascript-ninja",
+    "sha": "2e216ccf23bbeedad0c6432c15d8a9254fe23960",
+    "size": 2634,
+    "url": "https://api.github.com/repos/gitevents/playground/contents/jobs/20151227-teenage-mutant-ninja-turtles-javascript-ninja?ref=master",
+    "html_url": "https://github.com/gitevents/playground/blob/master/jobs/20151227-teenage-mutant-ninja-turtles-javascript-ninja",
+    "git_url": "https://api.github.com/repos/gitevents/playground/git/blobs/2e216ccf23bbeedad0c6432c15d8a9254fe23960",
+    "download_url": "https://raw.githubusercontent.com/gitevents/playground/master/jobs/20151227-teenage-mutant-ninja-turtles-javascript-ninja",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/gitevents/playground/contents/jobs/20151227-teenage-mutant-ninja-turtles-javascript-ninja?ref=master",
+      "git": "https://api.github.com/repos/gitevents/playground/git/blobs/2e216ccf23bbeedad0c6432c15d8a9254fe23960",
+      "html": "https://github.com/gitevents/playground/blob/master/jobs/20151227-teenage-mutant-ninja-turtles-javascript-ninja"
+    }
+  },
+  "commit": {
+    "sha": "f11f6d5c3361dca90f91199b637833a5daa88c13",
+    "url": "https://api.github.com/repos/gitevents/playground/git/commits/f11f6d5c3361dca90f91199b637833a5daa88c13",
+    "html_url": "https://github.com/gitevents/playground/commit/f11f6d5c3361dca90f91199b637833a5daa88c13",
+    "author": {
+      "name": "Patrick Heneise",
+      "email": "patrick@fastmail.im",
+      "date": "2015-12-27T15:12:19Z"
+    },
+    "committer": {
+      "name": "Patrick Heneise",
+      "email": "patrick@fastmail.im",
+      "date": "2015-12-27T15:12:19Z"
+    },
+    "tree": {
+      "sha": "af2f8b4f34eeec39f1a37616bd71bfc2d748c341",
+      "url": "https://api.github.com/repos/gitevents/playground/git/trees/af2f8b4f34eeec39f1a37616bd71bfc2d748c341"
+    },
+    "message": "Created 20151227-teenage-mutant-ninja-turtles-javascript-ninja by Teenage Mutant Ninja Turtles",
+    "parents": [{
+      "sha": "1a23952b1104cccbd228634ca429c49fc8d4a80b",
+      "url": "https://api.github.com/repos/gitevents/playground/git/commits/1a23952b1104cccbd228634ca429c49fc8d4a80b",
+      "html_url": "https://github.com/gitevents/playground/commit/1a23952b1104cccbd228634ca429c49fc8d4a80b"
+    }]
+  }
+}

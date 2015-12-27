@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/gitevents/gitevents-jobs.git",
   "scripts": {
-    "dev": "DEBUG=* nodemon jobs.js"
+    "test": "tape tests/*.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -20,5 +20,9 @@
     "stripe": "^4.1.0",
     "to-markdown": "^2.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nock": "^3.6.0",
+    "supertest": "^1.1.0",
+    "tape": "^4.4.0"
+  }
 }
