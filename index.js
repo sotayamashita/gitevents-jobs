@@ -45,7 +45,7 @@ router.init = function(cfg) {
 
   if (config.plugins.auth && config.plugins.auth.enabled) {
     jwtCheck = jwt({
-      secret: config.plugins.auth.secret,
+      secret: new Buffer(config.plugins.auth.secret, 'base64'),
       audience: config.plugins.auth.audience
     });
 
