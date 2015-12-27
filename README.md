@@ -4,7 +4,7 @@
 
 [Post A Job]-Button on event website
 
-    [Basic HTML for a job form](https://github.com/gitevents/gitevents-jobs/blob/master/html/jobs.html)
+[Basic HTML for a job form](https://github.com/gitevents/gitevents-jobs/blob/master/html/jobs.html)
 
 ## Job Form
 - Title
